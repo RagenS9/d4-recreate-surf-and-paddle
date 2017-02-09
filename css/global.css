@@ -8,3 +8,15 @@ img {
 html, body {
     height: 100%
 }
+
+header {
+    padding: 60px 0;
+    background-image: url("../img/waves.jpg");
+    color: white;
+
+}
+
+.logo {
+    width: 5vw;
+    margin-right: 5px;
+}
