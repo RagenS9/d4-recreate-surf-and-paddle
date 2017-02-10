@@ -6,13 +6,176 @@ img {
 }
 
 header {
-    padding: 30px 0 0 0;
-    height: 546px;
-    background-image: url("../img/waves.jpg");
+    background: linear-gradient(rgba(47,117,179,0.3), rgba(47,117,179,0.75)), url("../img/waves.jpg");
     background-size: cover;
-    background-position: 37% 24%;
-    color: white;
+    margin-bottom: 30px;
 }
+
+header .col-logo {
+    padding-top: 20px;
+}
+
+header .col-logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+header .col-logo span {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(8, 38, 66);
+}
+
+header .col-nav {
+    padding-top: 20px;
+}
+
+header .col-nav a {
+    color: rgb(8, 38, 66);
+    margin-right: 40px;
+}
+
+header .col-nav a:last-child {
+    margin: 0;
+}
+
+header .col-brand {
+    padding: 100px 0;
+}
+
+header .col-brand h1 {
+    color: white;
+    font-size: 80px;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header .col-brand span {
+    font-weight: bold;
+    color: rgb(8, 38, 66);
+}
+
+main h1 {
+    color: rgb(8, 38, 66);
+    font-size: 55px;
+    letter-spacing: 0px;
+}
+
+main .img-author {
+    width: 30px;
+}
+
+main .img-author-lg {
+    width: 100px;
+}
+
+main .button {
+    color: white;
+    margin-right: 30px;
+}
+
+main .button-icon {
+    background: #5E686F;
+    padding: 5px 7px;
+    display: inline-block;
+}
+
+main .button-blue .button-icon {
+    background: #053353;
+}
+
+main .button-label {
+    margin-left: -4px;
+    background: #A2B3C0;
+    padding: 5px 7px;
+    display: inline-block;
+}
+
+main .button-blue .button-label {
+    background: #016BB5;
+}
+
+/*go back and style the container-fluid h2*/
+
+footer h1 {
+    color: rgb(8, 38, 66);
+    font-size: 55px;
+    letter-spacing: 0px;
+}
+
+footer .posts {
+    display: flex;
+}
+
+footer .post {
+    flex: 3;
+    height: 25vw;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#post1 {
+    background-image: linear-gradient(rgba(47,117,179,0.3), rgba(47,117,179,0.75)), url("../img/man_water.jpg");
+    background-size: cover;
+}
+
+#post1:hover {
+    background-image: url("../img/man_water.jpg");
+}
+
+#post2 {
+    background-image: linear-gradient(rgba(47,117,179,0.3), rgba(47,117,179,0.75)), url("../img/canoe.jpg");
+    background-size: cover;
+}
+
+#post2:hover {
+    background-image: url("../img/canoe.jpg");
+}
+
+#post3 {
+    background-image: linear-gradient(rgba(47,117,179,0.3), rgba(47,117,179,0.75)), url("../img/scuba.jpg");
+    background-size: cover;
+}
+
+#post3:hover {
+    background-image: url("../img/scuba.jpg");
+}
+
+#post4 {
+    background-image: linear-gradient(rgba(47,117,179,0.3), rgba(47,117,179,0.75)), url("../img/wakeboard.jpg");
+    background-size: cover;
+}
+
+#post4:hover {
+    background-image: url("../img/wakeboard.jpg");
+}
+
+.copyright {
+    background: #053353;
+    color: white;
+    padding: 20px;
+}
+
+.copyright a {
+    color: azure;
+    margin: 0 20px;
+}
+
+.copyright a:hover {
+    color: blue;
+}
+
+.copyright a:last-child {
+    margin-right: 0;
+}
+
+
+
+
+
+
+/*header height???
 
 .logo {
     width: 17%;
@@ -20,20 +183,23 @@ header {
     font-family: 'Open Sans', sans-serif;
 }
 
-.menu {
+/*.menu {
     color: rgb(8, 38, 66);
-}
+}*/
 
-header h1 {
+/*header h1 {
     /*margin: 21px, 0, 10px, 0;*/
-    font-size: 106px;
+    /*font-size: 106px;
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-}
+}*/
 
-header small {
+/*header small {
     text-align: center;
     color: rgb(8, 38, 66);
-}
+}*/
+
+/*cell*/
+/*set points for tablet and cell for header h1 font size */
