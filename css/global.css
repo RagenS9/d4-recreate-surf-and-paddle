@@ -6,7 +6,7 @@ img {
 }
 
 header {
-    background: linear-gradient(rgba(47,117,179,0.3), rgba(47,117,179,0.75)), url("../img/waves.jpg");
+    background: linear-gradient(rgba(47,117,179,0.3), rgba(47,117,179,0.75)), url("../img/waves_sm.jpg");
     background-size: cover;
     margin-bottom: 30px;
 }
@@ -23,7 +23,7 @@ header .col-logo img {
 header .col-logo span {
     font-size: 18px;
     font-weight: bold;
-    color: rgb(8, 38, 66);
+    color: rgb(8, 38, 103);
 }
 
 header .col-nav {
@@ -31,7 +31,7 @@ header .col-nav {
 }
 
 header .col-nav a {
-    color: rgb(8, 38, 66);
+    color: rgb(8, 38, 103);
     margin-right: 40px;
 }
 
@@ -52,11 +52,15 @@ header .col-brand h1 {
 
 header .col-brand span {
     font-weight: bold;
-    color: rgb(8, 38, 66);
+    color: rgb(8, 38, 103);
+}
+
+main {
+    margin-bottom: 40px;
 }
 
 main h1 {
-    color: rgb(8, 38, 66);
+    color: rgb(8, 38, 103);
     font-size: 55px;
     letter-spacing: 0px;
 }
@@ -98,7 +102,7 @@ main .button-blue .button-label {
 /*go back and style the container-fluid h2*/
 
 footer h1 {
-    color: rgb(8, 38, 66);
+    color: rgb(8, 38, 103);
     font-size: 55px;
     letter-spacing: 0px;
 }
@@ -116,39 +120,39 @@ footer .post {
 }
 
 #post1 {
-    background-image: linear-gradient(rgba(47,117,179,0.3), rgba(47,117,179,0.75)), url("../img/man_water.jpg");
+    background-image: linear-gradient(rgba(47,117,179,0.3), rgba(47,117,179,0.75)), url("../img/man_water_sm.jpg");
     background-size: cover;
 }
 
 #post1:hover {
-    background-image: url("../img/man_water.jpg");
+    background-image: url("../img/man_water_sm.jpg");
 }
 
 #post2 {
-    background-image: linear-gradient(rgba(47,117,179,0.3), rgba(47,117,179,0.75)), url("../img/canoe.jpg");
+    background-image: linear-gradient(rgba(47,117,179,0.3), rgba(47,117,179,0.75)), url("../img/canoe_sm.jpg");
     background-size: cover;
 }
 
 #post2:hover {
-    background-image: url("../img/canoe.jpg");
+    background-image: url("../img/canoe_sm.jpg");
 }
 
 #post3 {
-    background-image: linear-gradient(rgba(47,117,179,0.3), rgba(47,117,179,0.75)), url("../img/scuba.jpg");
+    background-image: linear-gradient(rgba(47,117,179,0.3), rgba(47,117,179,0.75)), url("../img/scuba_sm.jpg");
     background-size: cover;
 }
 
 #post3:hover {
-    background-image: url("../img/scuba.jpg");
+    background-image: url("../img/scuba_sm.jpg");
 }
 
 #post4 {
-    background-image: linear-gradient(rgba(47,117,179,0.3), rgba(47,117,179,0.75)), url("../img/wakeboard.jpg");
+    background-image: linear-gradient(rgba(47,117,179,0.3), rgba(47,117,179,0.75)), url("../img/wakeboard_sm.jpg");
     background-size: cover;
 }
 
 #post4:hover {
-    background-image: url("../img/wakeboard.jpg");
+    background-image: url("../img/wakeboard_sm.jpg");
 }
 
 .copyright {
@@ -179,12 +183,12 @@ footer .post {
 
 .logo {
     width: 17%;
-    color: rgb(8, 38, 66);
+    color: rgb(8, 38, 103);
     font-family: 'Open Sans', sans-serif;
 }
 
 /*.menu {
-    color: rgb(8, 38, 66);
+    color: rgb(8, 38, 103);
 }*/
 
 /*header h1 {
@@ -198,7 +202,7 @@ footer .post {
 
 /*header small {
     text-align: center;
-    color: rgb(8, 38, 66);
+    color: rgb(8, 38, 103);
 }*/
 
 /*cell*/
